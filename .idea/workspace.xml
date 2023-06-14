@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask1/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask1/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask1/Task4.java" afterDir="false" />
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="hometask 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/TaskOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/TaskTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/MainClassForLessonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/MainClassForLessonOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,12 +102,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686073758713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hometask 1">
+      <created>1686119394922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686119394922</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="hometask 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask 1" />
   </component>
 </project>
