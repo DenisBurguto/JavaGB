@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="hometask 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/TaskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/TaskTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="hometask 2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeTask2/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/Task3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +106,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686119394922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hometask 2">
+      <created>1686743739523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686743739523</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hometask 2">
+      <created>1686743782087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686743782087</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="2" />
     <MESSAGE value="hometask 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask 1" />
+    <MESSAGE value="hometask 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask 2" />
   </component>
 </project>

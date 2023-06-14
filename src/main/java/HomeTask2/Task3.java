@@ -10,17 +10,17 @@ public class Task3 {
             String[] jsonLine = jsonStringArray[i].replaceAll("\\{", "").replaceAll("}", "")
                     .replaceAll("\"", "").replaceAll(" ", "").replaceAll(":", ",").split(",");
             StringBuilder outLine = new StringBuilder();
-            for (int j = 1; j < 2; j++) {
 
-                outLine.append("Студент ")
-                        .append(jsonLine[j])
-                        .append(" получил ")
-                        .append(jsonLine[j + 2])
-                        .append(" по предмету ")
-                        .append(jsonLine[j + 4])
-                        .append(".");
 
-            }
+            outLine.append("Студент ")
+                    .append(jsonLine[1])
+                    .append(" получил ")
+                    .append(jsonLine[3])
+                    .append(" по предмету ")
+                    .append(jsonLine[5])
+                    .append(".");
+
+
             System.out.println(outLine);
 
         }
