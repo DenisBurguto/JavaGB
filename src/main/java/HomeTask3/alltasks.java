@@ -14,7 +14,7 @@ import java.util.Random;
 public class alltasks {
     public static void main(String[] args) {
 
-        List<Integer> myList = createRandomIntList(5, 10);
+        List<Integer> myList = createRandomIntList(10, 10);
         System.out.println("Initial list: " + myList);
         findMax(myList);
         findMin(myList);
@@ -25,12 +25,13 @@ public class alltasks {
     }
 
     private static void removeEvens(List<Integer> myList) {
-
-        for (int i = 0; i < myList.size(); i++) {
-            if (myList.get(i) % 2 == 0) {
+        int i = 0;
+        while (i < myList.size()){
+            if (myList.get(i) % 2 ==0){
                 myList.remove(myList.get(i));
                 i--;
             }
+            i++;
         }
     }
 
@@ -67,7 +68,7 @@ public class alltasks {
         List<Integer> randomList = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < len; i++) {
-            randomList.add(i, random.nextInt(-maxValue - 1, maxValue));
+            randomList.add(i, random.nextInt(-maxValue + 1, maxValue));
         }
         return randomList;
     }
