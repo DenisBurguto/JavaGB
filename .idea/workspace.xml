@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="hometask 2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeTask2/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeTask2/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask3/alltasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/MainClassForLessonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/MainClassForLessonOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686743782087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hometask 2">
+      <created>1686752088537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752088538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
