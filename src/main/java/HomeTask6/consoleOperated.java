@@ -84,7 +84,7 @@ public class consoleOperated {
         System.out.println("we found below models available according to your request: ");
         for (noutebooks noutebooks : noutes
         ) {
-            if (noutebooks.getDiagonal() > diaFilter &&
+            if (noutebooks.getDiagonal() >= diaFilter &&
                     noutebooks.getRom() >= romFilter &&
                     noutebooks.getRam() >= ramFilter) {
                 System.out.println(noutebooks);
