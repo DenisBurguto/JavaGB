@@ -6,6 +6,11 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class MainClassForLessonOne {
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public static void main(String[] args) {
         Object o = 1;
         GetType(o);

@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="hometask 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask5/ConsoleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeTask5/phBookSwitch.java" afterDir="false" />
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="hometask 6">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOPHomeTask1/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOPHomeTask1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOPHomeTask1/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOPHomeTask1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOPHomeTask1/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOPHomeTask1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/sem6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/MainClassForLessonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/MainClassForLessonOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,15 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="HomeTask6" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainClassForLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.MainClassForLessonOne" />
@@ -152,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687082578484</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="hometask 5">
+      <created>1687335860112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687335860112</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hometask 6">
+      <created>1687598037080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687598037080</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +195,8 @@
     <MESSAGE value="hometask 2" />
     <MESSAGE value="hometask 3" />
     <MESSAGE value="hometask 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask 4" />
+    <MESSAGE value="hometask 5" />
+    <MESSAGE value="hometask 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask 6" />
   </component>
 </project>
