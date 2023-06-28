@@ -24,7 +24,7 @@ public class Main {
             System.out.println(animals);
         }
         System.out.println("************************************************************************************************");
-        Random random = (Random) new Random();
+        Random random = new Random();
         for (Animals animals : ourAnimals
         ) {
             double meal = random.nextDouble(0, 10);
