@@ -52,7 +52,7 @@ public class Homework {
 
         void getCure(int cure);
 
-        void showHealth();
+        int[] returnHealth();
 
 
     }
@@ -62,7 +62,7 @@ public class Homework {
 
         void refileMana(int inMana);
 
-        void showMana();
+        int[] returnMana();
 
     }
 
@@ -75,13 +75,14 @@ public class Homework {
          */
         public void showIndicator(Object object) {
             if (Health.class.isInstance(object)) {
-                ((Health) object).showHealth();
+                int[] health = ((Health) object).returnHealth();
+                System.out.println(ANSI_GREEN + "Current health: " + health[0] + " Maximum possible: " + health[1] + ANSI_RESET);
 
             }
             if (ManaPower.class.isInstance(object)) {
-                ((ManaPower) object).showMana();
+                int[] mana = ((ManaPower) object).returnMana();
+                System.out.println(ANSI_YELLOW + "Current mana: " + mana[0] + " Maximum possible: " + mana[1] + ANSI_RESET);
             }
-
             // Не должно быть упоминания конкретных классов!!!
         }
 
@@ -127,8 +128,12 @@ public class Homework {
         }
 
         @Override
-        public void showHealth() {
-            System.out.println(ANSI_GREEN + "Current health: " + this.currentHealthPoint + " Maximum possible: " + this.maxHealthPoint + ANSI_RESET);
+        public int[] returnHealth() {
+            int[] health = new int[2];
+            health[0] = this.currentHealthPoint;
+            health[1] = this.maxHealthPoint;
+            return health;
+
         }
 
 
@@ -182,9 +187,14 @@ public class Homework {
 
         }
 
+
         @Override
-        public void showHealth() {
-            System.out.println(ANSI_GREEN + "Current health: " + this.currentHealthPoint + " Maximum possible: " + this.maxHealthPoint + ANSI_RESET);
+        public int[] returnHealth() {
+            int[] health = new int[2];
+            health[0] = this.currentHealthPoint;
+            health[1] = this.maxHealthPoint;
+            return health;
+
         }
 
         @Override
@@ -207,14 +217,18 @@ public class Homework {
         }
 
         @Override
-        public void showMana() {
-            System.out.println(ANSI_YELLOW + "Current mana: " + this.currentManaPoint + " Maximum possible: " + this.maxManaPoint + ANSI_RESET);
+        public int[] returnMana() {
+            int[] mana = new int[2];
+            mana[0] = this.currentManaPoint;
+            mana[1] = this.maxManaPoint;
+            return mana;
         }
 
 
     }
 
     static class Neutral implements Health {
+
 
         private int maxHealthPoint; // максимально количество здоровья
         private int currentHealthPoint; // текущее количество здоровья
@@ -252,8 +266,12 @@ public class Homework {
         }
 
         @Override
-        public void showHealth() {
-            System.out.println(ANSI_GREEN + "Current health: " + this.currentHealthPoint + " Maximum possible: " + this.maxHealthPoint + ANSI_RESET);
+        public int[] returnHealth() {
+            int[] health = new int[2];
+            health[0] = this.currentHealthPoint;
+            health[1] = this.maxHealthPoint;
+            return health;
+
         }
 
 
