@@ -1,4 +1,8 @@
-package OOPHomeTask3;
+package OOP3;
+
+import OOPHomeTask3.Box;
+import OOPHomeTask3.Container;
+import OOPHomeTask3.ContainerCountComparator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,30 +21,34 @@ import java.util.List;
 //        for (Box box: c) {
 //        box - это контейнер
 //        }
-public class Main {
+public class Main
+{
     public static void main(String[] args) {
-        Box box1 = new Box(10);
-        Box box2 = new Box(5);
-        Box box3 = new Box(8);
-        Box box4 = new Box(11);
-        Box box5 = new Box(20);
+        OOPHomeTask3.Box box1 = new OOPHomeTask3.Box(10);
+        OOPHomeTask3.Box box2 = new OOPHomeTask3.Box(5);
+        OOPHomeTask3.Box box3 = new OOPHomeTask3.Box(8);
+        OOPHomeTask3.Box box4 = new OOPHomeTask3.Box(11);
+        OOPHomeTask3.Box box5 = new OOPHomeTask3.Box(20);
 
-        List<Box> boxes1 = new ArrayList<>();
+        List<OOPHomeTask3.Box> boxes1 = new ArrayList<>();
         boxes1.add(box1);
         boxes1.add(box2);
         boxes1.add(box3);
 
-        Container container1 = new Container(boxes1);
+        OOPHomeTask3.Container container1 = new OOPHomeTask3.Container(boxes1);
 
         System.out.println("Container1 weight: " + container1.getWeight());
 
-        for (Box box : container1) {
+        for (OOPHomeTask3.Box box : container1) {
             System.out.println("Box weight: " + box.getWeight());
         }
 
-        Container container2 = new Container();
-        container2.addBox(box5);
-        container2.addBox(box4);
+        List<OOPHomeTask3.Box> boxes2 = new ArrayList<>();
+
+        boxes2.add(box4);
+        boxes2.add(box5);
+
+        OOPHomeTask3.Container container2 = new Container(boxes2);
 
 
         System.out.println("Container2 weight: " + container2.getWeight());
@@ -49,22 +57,22 @@ public class Main {
 
         }
 
-        ContainerCountComparator countComparator = new ContainerCountComparator();
+        OOPHomeTask3.ContainerCountComparator countComparator = new ContainerCountComparator();
         int comparisonResult = countComparator.compare(container1, container2);
         String result = "";
         if (comparisonResult == 0) {
             result = "containers have the same boxes quantity in them";
 
         } else if (comparisonResult > 0) {
-            result = "first container contains has more boxes";
+            result = "first container contains more boxes";
 
         } else {
-            result = "last  container contains has more boxes";
+            result = "last  container contains more boxes";
         }
 
         System.out.println("Comparison result: " + result);
 
-       int weightComparisonResult = container1.compareTo(container2);
+        int weightComparisonResult = container1.compareTo(container2);
         if (weightComparisonResult == 0) {
             result = "containers are the same weight";
 
