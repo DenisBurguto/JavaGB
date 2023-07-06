@@ -3,18 +3,21 @@ package OOPHomeTask3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
-public class Container implements Comparable<Container>, Iterable<Box>{
+
+public class Container implements Comparable<Container>, Iterable<Box> {
     public List<Box> boxes;
 
     public Container(List<Box> boxes) {
         this.boxes = boxes;
     }
-    public void addBox(Box box){
+
+    public void addBox(Box box) {
         this.boxes.add(box);
 
     }
+
     public Container() {
-      this.boxes = new ArrayList<>();
+        this.boxes = new ArrayList<>();
     }
 
     public int getWeight() {

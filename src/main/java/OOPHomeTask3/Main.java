@@ -64,7 +64,7 @@ public class Main {
 
         System.out.println("Comparison result: " + result);
 
-       int weightComparisonResult = container1.compareTo(container2);
+        int weightComparisonResult = container1.compareTo(container2);
         if (weightComparisonResult == 0) {
             result = "containers are the same weight";
 
