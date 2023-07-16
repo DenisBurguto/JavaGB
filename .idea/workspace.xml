@@ -4,28 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="oopHW4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/UniversityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/controllers/GroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/controllers/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/controllers/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/models/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/repositories/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/repositories/TeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/services/GroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/services/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/services/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/view/GroupView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/view/SortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/view/StudentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/view/TeacherView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/view/UserView.java" afterDir="false" />
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="oopHW5 only must task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work2/AccountReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work2/DocumentReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work2/ReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work3/BaseGreeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work3/CasualGreeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work3/DefaultGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work3/FormalGreeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work6/Work3/IntimateGreeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +28,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,13 +38,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -86,6 +70,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="HomeTask6" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -243,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688818789049</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="oopHW5 only must task">
+      <created>1689321935587</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689321935587</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +265,7 @@
     <MESSAGE value="oopHW3 done" />
     <MESSAGE value="oopHW3 up-dated" />
     <MESSAGE value="oopHW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="oopHW4" />
+    <MESSAGE value="oopHW5 only must task" />
+    <option name="LAST_COMMIT_MESSAGE" value="oopHW5 only must task" />
   </component>
 </project>
