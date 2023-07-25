@@ -12,7 +12,7 @@ public class Task3 {
             int[] abc = {1, 2};
             abc[1] = 9;
         } catch (NullPointerException ex) {
-            System.out.println("Указатель не может указывать на null!");
+            System.out.println("Указатель не может указывать на null!"); // можно убрать отсюда в метод pintSum ( если уберем Exception ex  ниже)
         } catch (IndexOutOfBoundsException ex) {
             System.out.println("Массив выходит за пределы своего размера!");
         } catch (ArithmeticException ex) {
