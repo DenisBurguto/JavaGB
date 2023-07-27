@@ -13,9 +13,12 @@ public class Main {
         List<String> pattern = List.of
                 ("surname", "name", "patronymicName", "dateOfBirth", "phoneNumber", "sex");
         List<String> userData = getUserData(pattern);
-        Person person = new Person(userData.get(0), userData.get(1), userData.get(2),
-                userData.get(3), userData.get(4), userData.get(5));
-        writeUserDataToFile(person);
+
+        if (isValidUserInput(userData, pattern)) {
+            Person person = new Person(userData.get(0), userData.get(1),
+                    userData.get(2), userData.get(3), userData.get(4), userData.get(5));
+            writeUserDataToFile(person);
+        }
 
     }
 
@@ -25,7 +28,11 @@ public class Main {
                 .replaceAll(",", " ") + ", all data separated by space : ");
         Scanner scanner = new Scanner(System.in);
         List<String> userData = new ArrayList<>(List.of(scanner.nextLine().split(" ")));
+        return userData;
 
+    }
+
+    private static boolean isValidUserInput(List<String> userData, List<String> pattern) {
         if (userData.size() == pattern.size()) {
             try {
                 // check string format dd.mm.yyyy
@@ -39,7 +46,7 @@ public class Main {
             } catch (NumberFormatException e) {
                 throw new PhoneNumberException();
             }
-            return userData;
+            return true;
         } else if (userData.size() < pattern.size()) {
             throw new RuntimeException("You have entered less data then required");
         } else {
@@ -54,7 +61,7 @@ public class Main {
             fileWriter.write(person.toString());
         } catch (IOException e) {
             e.printStackTrace();
-            throw new RuntimeException(e);
+            throw new RuntimeException("Problems with writing data to file");
         }
         System.out.println("Your data is successfully added to file named " + person.getSurname());
 

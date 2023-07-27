@@ -1,5 +1,6 @@
 package ExceptionHT3;
 
+import java.util.List;
 import java.util.Objects;
 
 public class Person {
@@ -9,6 +10,7 @@ public class Person {
     private String dateOfBirth;
     private String phoneNumber;
     private String sex;
+
 
     @Override
     public boolean equals(Object o) {
@@ -22,6 +24,7 @@ public class Person {
     public int hashCode() {
         return Objects.hash(surname, name, patronymicName, dateOfBirth, sex);
     }
+
 
     public Person(String surname, String name, String patronymicName, String dateOfBirth, String phoneNumber, String sex) {
         this.surname = surname;

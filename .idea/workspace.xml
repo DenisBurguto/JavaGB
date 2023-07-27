@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="Exception HT2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/DateOfBirthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/PhoneNumberException.java" afterDir="false" />
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="Exception HT3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690282244987</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Exception HT3">
+      <option name="closed" value="true" />
+      <created>1690482559765</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1690482559765</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,6 +299,7 @@
     <MESSAGE value="oopHW5 only must task" />
     <MESSAGE value="oopHW6" />
     <MESSAGE value="Exception HT2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception HT2" />
+    <MESSAGE value="Exception HT3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception HT3" />
   </component>
 </project>
