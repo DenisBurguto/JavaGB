@@ -5,8 +5,9 @@ public class HeapSort {
     public void sort(int[] array) {
         int n = array.length;
 
-        // Build heap (rearrange array)
-        for (int i = n / 2 - 1; i >= 0; i--) { // (i-1)/2 parent in heap
+        // Build heap (rearrange array) the first index
+        // of a non-leaf node is given by n/2 - 1
+        for (int i = n / 2 - 1; i >= 0; i--) {
             heapify(array, n, i);
         }
 
