@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="Exception HT3">
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="Exception HT3 updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/SortUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" afterDir="false" />
@@ -278,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690482559765</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Exception HT3 updated">
+      <option name="closed" value="true" />
+      <created>1690487262919</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1690487262919</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -300,6 +312,7 @@
     <MESSAGE value="oopHW6" />
     <MESSAGE value="Exception HT2" />
     <MESSAGE value="Exception HT3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception HT3" />
+    <MESSAGE value="Exception HT3 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception HT3 updated" />
   </component>
 </project>

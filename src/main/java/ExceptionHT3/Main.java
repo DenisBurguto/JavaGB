@@ -28,6 +28,7 @@ public class Main {
                 .replaceAll(",", " ") + ", all data separated by space : ");
         Scanner scanner = new Scanner(System.in);
         List<String> userData = new ArrayList<>(List.of(scanner.nextLine().split(" ")));
+        scanner.close();
         return userData;
 
     }
@@ -54,7 +55,6 @@ public class Main {
         }
 
     }
-
 
     private static void writeUserDataToFile(Person person) {
         try (FileWriter fileWriter = new FileWriter(person.getSurname(), true)) {
