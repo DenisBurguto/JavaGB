@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="Exception HT3 updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT1/SortUtils.java" afterDir="false" />
+    <list default="true" id="51dde122-2c14-4d3e-88c4-0cd244c74056" name="Changes" comment="HeapSort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT3/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT3/EmployeeNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT3/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT3/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlgorithmsHT3/SortType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExceptionHT3/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -290,7 +290,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690487262919</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="HeapSort">
+      <option name="closed" value="true" />
+      <created>1691090503795</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691090503795</updated>
+    </task>
+    <task id="LOCAL-00030" summary="HeapSort">
+      <option name="closed" value="true" />
+      <created>1691090674662</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691090674662</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -313,6 +329,7 @@
     <MESSAGE value="Exception HT2" />
     <MESSAGE value="Exception HT3" />
     <MESSAGE value="Exception HT3 updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception HT3 updated" />
+    <MESSAGE value="HeapSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="HeapSort" />
   </component>
 </project>
